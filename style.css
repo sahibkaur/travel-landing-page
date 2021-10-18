@@ -13,10 +13,12 @@ header {
     flex-direction: row;
     justify-content: space-between;
     max-width: 1100px;
+    align-items: center;
 }
 nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .btn {
     background-color: #86574d;
@@ -50,10 +52,13 @@ h1 {
 .content {
     margin: auto;
     margin-top: 50px;
-    max-width: 1100px;
+    max-width: 1500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.text-content {
+    width: 50%;
 }
 .secondary-text {
     font-weight: normal;
@@ -67,9 +72,16 @@ h1 {
 p {
     color: #4B5D67;
 }
+.slideshow {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .cards {
     display: flex;
     justify-content: space-between;
+    width: 350px;
 }
 .travel-card {
     max-width: 150px;
@@ -79,4 +91,16 @@ p {
 }
 .places-image {
     width: 100%;
+}
+.next {
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    background-color: #86574d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next:hover{
+    cursor: pointer;
 }
